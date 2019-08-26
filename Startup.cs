@@ -62,14 +62,16 @@ namespace TestAuthentication
                 options.User.RequireUniqueEmail = false;
             });
 
+            // Setting the Account Login page
             services.ConfigureApplicationCookie(options =>
             {
                 // Cookie settings
                 options.Cookie.HttpOnly = true;
                 options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
 
-                options.LoginPath = "/Identity/Account/Login";
-                options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+                options.LoginPath = "/Identity/Account/Login";  //If the LoginPath is not se here, ASP.NET Core will default to /Account/Login 
+                options.LogoutPath = "/Account/Logout"; //If the LogoutPath is not set here, ASP.NET Core will default to /Account/Logout
+                options.AccessDeniedPath = "/Identity/Account/AccessDenied";  //If the AccessDeniedPath is not set here, ASP.NET Core will default to /Account/AccessDenied
                 options.SlidingExpiration = true;
             });
 
