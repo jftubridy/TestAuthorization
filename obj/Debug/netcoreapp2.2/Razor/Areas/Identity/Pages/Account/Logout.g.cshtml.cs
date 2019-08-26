@@ -13,13 +13,13 @@ namespace TestAuthentication.Areas.Identity.Pages.Account
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 2 "/Users/Guest/Desktop/TestAuthentication/Areas/Identity/Pages/_ViewImports.cshtml"
-using TestAuthentication.Areas.Identity;
+#line 1 "/Users/Guest/Desktop/TestAuthentication/Areas/Identity/Pages/_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
-#line 3 "/Users/Guest/Desktop/TestAuthentication/Areas/Identity/Pages/_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
+#line 2 "/Users/Guest/Desktop/TestAuthentication/Areas/Identity/Pages/_ViewImports.cshtml"
+using TestAuthentication.Areas.Identity;
 
 #line default
 #line hidden
@@ -29,7 +29,7 @@ using TestAuthentication.Areas.Identity.Pages.Account;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"acf321d273a4b4dd8650c17231b06987dc03df69", @"/Areas/Identity/Pages/Account/Logout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dbadb469787b020397166abe7323746129076260", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dd085856e81252e43f0e8a42496da868b8f4671f", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2b2f0239ba50d4a2bf4187290ba01b692fec0563", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     public class Areas_Identity_Pages_Account_Logout : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
